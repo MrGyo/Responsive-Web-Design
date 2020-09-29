@@ -22,4 +22,4 @@ Lien vers la [Maquette](https://github.com/MrGyo/p2/blob/master/maquette/maquett
 * Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
 * Implémenter une interface responsive
 
-==> La version finale du site est disponible [ICI](mrgyo.github.io/p2/)
+La version finale du site est disponible [ICI](https://mrgyo.github.io/p2/)
