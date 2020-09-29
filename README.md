@@ -24,4 +24,7 @@ Lien vers la [Maquette](https://github.com/MrGyo/p2/blob/master/maquette/maquett
 * Définir la structure d'une page web à partir d'une maquette
 * Assurer la conformité d'une page web aux standards HTML et CSS
 
-La version finale du site est disponible [ICI](https://mrgyo.github.io/p2/)
+## Résultats 
+
+* [Version finale du site](https://mrgyo.github.io/p2/)
+* [Document de présenation](https://github.com/MrGyo/p2/blob/master/soutenance/SOUTENANCE_P2_WEBDEV_20200307.pptx)
