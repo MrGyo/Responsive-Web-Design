@@ -7,9 +7,9 @@ Vous venez de vous lancer en tant que développeur web freelance et un client po
 
 ## Techonologies utilisées
 
-* HTML
-* CSS
-* Framework Bootstrap
+* HTML5
+* CSS3
+* Framework Bootstrap(4.4.1)
 
 ## Documentation 
 
