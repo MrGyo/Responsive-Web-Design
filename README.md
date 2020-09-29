@@ -18,8 +18,10 @@ Lien vers la [Maquette](https://github.com/MrGyo/p2/blob/master/maquette/maquett
 ## Compétences évaluées
 
 * Intégrer du contenu conformément à une maquette
-* Mettre en place son environnement Front-End
+* Préparer des éléments graphiques et textuels à intégrer à une page web
+* Adapter l'affichage d'un site web à des écrans de petite taille
 * Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
-* Implémenter une interface responsive
+* Définir la structure d'une page web à partir d'une maquette
+* Assurer la conformité d'une page web aux standards HTML et CSS
 
 La version finale du site est disponible [ICI](https://mrgyo.github.io/p2/)
