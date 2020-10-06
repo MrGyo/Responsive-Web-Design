@@ -26,4 +26,4 @@ Lien vers la [Maquette](https://github.com/MrGyo/p2/blob/master/maquette/maquett
 ## Résultats 
 
 * [Version finale du site](https://mrgyo.github.io/p2/)
-* [Document de présenation](https://github.com/MrGyo/p2/blob/master/soutenance/SOUTENANCE_P2_WEBDEV_20200307.pptx)
+* [Document de présentation](https://github.com/MrGyo/p2/blob/master/soutenance/SOUTENANCE_P2_WEBDEV_20200307.pptx)
