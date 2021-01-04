@@ -208,6 +208,13 @@ ul li {
     vertical-align: middle;
 }
 
+#adobe {
+    width: 29.2px;
+    height: 29.2px;
+    margin-top: -3.2%;
+    margin-left: -2.5%;
+}
+
 /* Mise en forme des éléments pour le responsive */
 
 #photo_bis > img {
