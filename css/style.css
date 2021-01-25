@@ -14,11 +14,6 @@ body {
     margin-bottom: 1.5%;
 }
 
-li {
-    list-style-type: circle;
-}
-
-
 /* Identité et profession */
 
 #identity {
@@ -47,13 +42,6 @@ h1 {
     margin-top: 2.5%;
 }
 
-#motto {
-    font-size: 1.4em;
-    font-weight: bold;
-    color : #00ACC1;
-    margin-top: 2%;
-}
-
 /* Liseré gauche desktop */
 
 .container-fluid {
@@ -77,7 +65,7 @@ h1 {
 
 .photo > img {
     border-radius: 100%;
-    border: 3px solid #303549;
+    border: 5px solid #303549;
 }
 
 .details {
@@ -116,41 +104,6 @@ h1 {
     margin: 10%;
 }
 
-.hobby-type {
-    font-size: 0.3em;
-    color: #303549;
-}
-
-.skills-container {
-    width: 100%;
-    background-color: #ddd;
-  }
-
-.skills {
-    text-align: center;
-    /*padding-top: 10px;
-    padding-bottom: 10px;*/
-    margin-bottom: 10px;
-    color: white;
-    font-weight: bold;
-  }
-
-  .skills-list {
-      margin-top: 5%;
-  }
-
-  .skills-list > p {
-      margin-bottom: 0;
-  }
-  
-  .study {width: 95%; background-color: #00ACC1;}
-  .analytic {width: 90%; background-color: #00ACC1;}
-  .survey {width: 85%; background-color: #00ACC1;}
-  .project {width: 75%; background-color: #00ACC1;}
-  .frontend {width: 60%; background-color: #00ACC1;}
-  .ux {width: 20%; background-color: #00ACC1;}
-  .ui {width: 20%; background-color: #00ACC1;}
-
 /* Effets sur les sections */
 
 .mt_40 {
@@ -179,7 +132,7 @@ p {
 }
 
 #section_one {
-    margin-top: 4%;
+    margin-top: 6%;
 }
 
 #section_two {
@@ -233,11 +186,6 @@ ul li {
     margin-right: 3%;
 }
 
-.fa-check-square {
-    color: #00ACC1;
-    margin-right: 3%;
-}
-
 .fa-skating {
     color: #303549;
 }
@@ -271,12 +219,12 @@ ul li {
 
 #photo_bis > img {
     border-radius: 100%;
-    border: 3px solid #303549;
+    border: 5px solid #303549;
 }
 
 #photo_ter > img {
     border-radius: 100%;
-    border: 3px solid #303549;
+    border: 5px solid #303549;
 }
 
 #edge_bis {
@@ -547,7 +495,7 @@ ul li {
     }
     
     #h_scale {
-        margin-bottom: 6%;
+        margin-bottom: 15%;
     }
 }
 
