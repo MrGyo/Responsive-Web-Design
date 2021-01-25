@@ -1,0 +1,502 @@
+/* Gestion couleur body et block_page */
+
+body {
+    background-color: #d8d8d8;
+}
+
+.container {
+    background-color: #edf0f2;
+    padding-left: 0;
+}
+
+.block_page {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+/* Identité et profession */
+
+#identity {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em; 
+    text-transform: uppercase; 
+    margin-top: 17%;
+}
+
+#name {
+    color: #00ACC1;
+    font-weight: bold;
+}
+
+h1 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+
+#line_pro {
+    border-bottom: 2px solid #00ACC1;  
+}
+
+#skills {
+    margin-top: 2.5%;
+}
+
+/* Liseré gauche desktop */
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#edge {
+    display: flex;
+    flex-direction: column;
+    background-color: #00ACC1;
+    height: 100%;
+    border-right: 2px solid #303549;
+}
+
+.photo {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: center;  
+}
+
+.photo > img {
+    border-radius: 100%;
+    border: 5px solid #303549;
+}
+
+.details {
+    background-color: #303549;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: #cbced8;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.contact {
+    text-align: justify;
+    color: #303549;
+    font-family: arial;
+    margin: 10%;
+}
+
+.flex_tips {
+    flex: 1;  
+}
+
+.about_me {
+    text-align: justify;
+    color: #303549;
+    font-family: arial;
+    margin: 10%;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.8em;
+    margin: 10%;
+}
+
+/* Effets sur les sections */
+
+.mt_40 {
+    margin-top: 5%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #00ACC1;
+    padding-bottom: 1.5%;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+
+p {
+    text-align: justify; 
+}
+
+#section_one {
+    margin-top: 6%;
+}
+
+#section_two {
+    margin-top: 4%;
+}
+
+#section_three {
+    margin-top: 4%;
+}
+
+ul li {
+    margin-left: -15%;
+    list-style-type: none;
+    }
+
+.reco {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: arial;
+    margin-bottom: 5%;
+}
+
+/* Design des icônes */
+
+.fab {
+    color: #00ACC1;
+    margin-right: 2%;
+}
+
+.fa-dot-circle {
+    color: #00ACC1;
+}
+
+.fa-circle {
+    color: #00ACC1;
+}
+
+.fa-graduation-cap {
+    color: #00ACC1;
+    margin-right: 3%;
+}
+
+.fa-briefcase {
+    color: #00ACC1;
+    margin-right: 3%;
+}
+
+.fa-pencil-alt {
+    color: #00ACC1;
+    margin-right: 3%;
+}
+
+.fa-skating {
+    color: #303549;
+}
+
+.fa-water {
+    color: #303549;
+}
+
+.fa-headphones {
+    color: #303549;
+}
+
+.circle-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #303549;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+}
+
+#adobe {
+    width: 29.2px;
+    height: 29.2px;
+    margin-top: -3.2%;
+    margin-left: -2.5%;
+}
+
+/* Mise en forme des éléments pour le responsive */
+
+#photo_bis > img {
+    border-radius: 100%;
+    border: 5px solid #303549;
+}
+
+#photo_ter > img {
+    border-radius: 100%;
+    border: 5px solid #303549;
+}
+
+#edge_bis {
+    background-color: #00ACC1;
+}
+
+/* Règles Media queries smartphone, tablette et desktop */
+
+@media (max-width: 575.98px) { 
+    
+    body {
+        background-color: #edf0f2;
+    }       
+
+    .container {
+        background-color: transparent;
+        padding-left: 15px;
+    }
+    
+    .block_page {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #photo_bis > img {
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        margin-top: 5%;
+    }
+    
+    #identity {
+        font-size: 2.6em; 
+        text-transform: uppercase; 
+        margin-top: 5%;
+    }
+    
+    #skills {
+        margin-top: 5%;
+    }
+    
+    #h_scale {
+        margin-bottom: 10%;
+    }
+
+    h1 {
+        font-size: 1.5em;   
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
+    
+    h3 {
+        font-size: 1.1em;
+    }
+
+    .contact {
+        margin: 3%;
+    }
+    
+    br {
+        display: none;
+    }
+    
+    .details {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin: 0;
+    }
+  
+    .about_me {
+        text-align: justify;
+        color: #303549;
+        font-family: arial;
+        padding: 0;
+        margin: 3%;   
+    }
+    
+    .hobbies {
+        margin : auto;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    
+    ul li {
+        margin-left: -4%;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    body {
+        background-color: #edf0f2;
+    } 
+    
+    .container {
+        background-color: transparent;
+        padding-left: 15px;
+    }
+    
+    .block_page {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #photo_bis > img {
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        margin-top: 5%;
+    }
+    
+    #identity {
+        font-size: 2.6em; 
+        text-transform: uppercase; 
+        margin-top: 5%;
+    }
+    
+    #skills {
+        margin-top: 5%;
+    }
+    
+    #h_scale {
+        margin-bottom: 10%;
+    }
+
+    .details {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    
+    .contact {
+        margin: 3%;
+        text-align: left;
+    }
+    
+    .about_me {
+        text-align: justify;
+        color: #303549;
+        font-family: arial;
+        padding: 0;
+        margin: 3%;   
+    }
+    
+    .hobbies {
+        margin : auto;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    
+    ul li {
+        margin-left: -3.3%;
+    }
+
+    br {
+        display: none;
+    }   
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    body {
+        background-color: #edf0f2;
+    } 
+    
+    .container {
+        background-color: transparent;
+        padding-left: 15px;
+    }
+    
+    .block_page {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    #edge_bis {
+        margin-top: 2.5%;
+    }
+    
+    #photo_ter > img {
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin-top: 70%;
+    }
+    
+    #photo_bis {
+        display: none;
+    }
+ 
+    .details {
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .contact_list {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact_list br {
+        display: none;
+    } 
+
+    .contact {
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+        color: #303549;
+        font-family: arial;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .flex_tips {
+        flex: 1;
+
+    }
+
+    .about_me {
+        margin: 0;
+        padding: auto;
+        text-align: justify;
+        color: #303549;
+        font-family: arial;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+    }
+
+    .hobbies {
+        display: flex;
+        justify-content: space-around;
+        margin : auto;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+        
+} 
+
+@media (min-width: 992px) {
+    
+    #photo_bis {
+        display: none;
+    }
+    
+    .block_page {
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
+    
+    #edge_bis {
+        display: none;
+    }
+    
+    .content {
+        padding-left: 3.5%;
+    }
+
+    #section_three {
+        margin-bottom: 3%;
+    }
+    
+    #h_scale {
+        margin-bottom: 15%;
+    }
+}
+
+
